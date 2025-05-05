@@ -65,7 +65,7 @@ export default function Platform() {
               Uma plataforma completa em qualquer dispositivo
             </h2>
 
-            <div className="space-y-4">
+            <div className="space-y-4 text-justify">
               <p>
                 O Interlis é a escolha certa. Um sistema de gestão focado no aumento de produtividade, com uma interface clara e intuitiva.
               </p>

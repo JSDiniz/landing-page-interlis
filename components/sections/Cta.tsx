@@ -1,9 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
-import Businessperson from "./../../public/businessperson.png"
 import { useState } from "react";
 import { ContactModal } from "../ContactModal";
 
@@ -19,8 +17,6 @@ export default function Cta() {
         backgroundAttachment: "fixed",
       }}
     >
-      {/* <div className="absolute inset-0 bg-gradient-to-r from-purple-50 to-purple-100 skew-y-3 -z-10 transform-gpu"></div> */}
-
       <div className="container max-w-7xl mx-auto px-4 pt-10">
         <div className="flex flex-col items-center justify-center">
           <motion.div
@@ -28,10 +24,10 @@ export default function Cta() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="max-w-2xl mx-auto text-center"
+            className="max-w-2xl text-center"
           >
             <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
-              Interessado Em Aumentar A <samp className="bg-gradient-to-r from-[#5E2C82] to-[#944B9A] bg-clip-text text-transparent">Fluidez</samp> Em Seu Laboratório?
+              Interessado em aumentar a <samp className="font-bold font-ubuntu bg-gradient-to-r from-[#5E2C82] to-[#944B9A] bg-clip-text text-transparent">fluidez</samp> em seu laboratório?
             </h2>
 
             <p className="mb-8 text-lg">

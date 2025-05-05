@@ -66,7 +66,7 @@ export default function OrbitingCircles({
                             transform: "translate(-50%, -50%)",
                         }}
                     >
-                        <div className="w-full h-full flex items-center justify-center p-2 bg-white border border-gray-300 rounded-full shadow-secondary shadow-md">
+                        <div className="w-full h-full flex items-center justify-center p-2 bg-white border border-gray-100 rounded-full drop-shadow-xl">
                             <Image
                                 src={logo}
                                 alt={`logo-${index}`}
