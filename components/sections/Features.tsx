@@ -48,7 +48,7 @@ export default function Features() {
               Tecnologia que organiza, analista que analisa:
             </h2>
 
-            <div className="space-y-4">
+            <div className="space-y-4 text-justify">
               <p>
                 O Interlis simplifica processos para que você tenha mais tempo para sua expertise: a interpretação analítica.
               </p>
