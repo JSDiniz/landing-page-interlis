@@ -1,7 +1,11 @@
 "use client";
 
+import Image from "next/image";
+
 import { motion } from "framer-motion";
 import { ClipboardCheck, Clock, Lock, Users, Layers, Globe } from "lucide-react";
+
+import Logo from "@/public/logo-icon.svg"
 
 export default function Advantages() {
   const advantages = [
@@ -53,7 +57,16 @@ export default function Advantages() {
   };
 
   return (
-    <section className="py-20" id="vantagens">
+    <section className="py-20 relative" id="vantagens">
+
+      <div className="absolute w-[600px] h-auto bottom-0 left-1/2 -translate-x-1/2  opacity-5 -z-10">
+        <Image
+          src={Logo}
+          alt="Painel de Controle Interlis"
+          className="w-full h-auto"
+        />
+      </div>
+
       <div className="container max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

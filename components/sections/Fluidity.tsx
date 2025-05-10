@@ -6,11 +6,21 @@ import Image from "next/image";
 import Monitor from "@/public/fluidity/monitor.png"
 import Request1 from "@/public/fluidity/request-1.png"
 import Request2 from "@/public/fluidity/request-2.png"
+import Decoration from "@/public/decoration/decoration-1.svg"
 
 
 export default function Fluidity() {
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+
+      <div className="absolute w-[1000px] h-auto -top-[80%] right-5 opacity-5 -z-10">
+        <Image
+          src={Decoration}
+          alt="Painel de Controle Interlis"
+          className="w-full h-auto"
+        />
+      </div>
+
       <div className="container max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div

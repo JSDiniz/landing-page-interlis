@@ -1,8 +1,12 @@
 "use client";
 
+import Image from "next/image";
+
 import { motion } from "framer-motion";
 
 import OrbitingCircles from "../OrbitingCircles";
+
+import Decoration from "@/public/decoration/decoration-2.svg"
 
 export default function Integration() {
   const integrations = [
@@ -24,8 +28,19 @@ export default function Integration() {
     },
   };
 
+  // bg-[url(/decoration/rectangle.svg)] bg-contain bg-center
+
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+
+      <div className="absolute w-[1000px] h-auto bottom-0 left-0 right-5 opacity-5 -z-10">
+        <Image
+          src={Decoration}
+          alt="Painel de Controle Interlis"
+          className="w-full h-auto"
+        />
+      </div>
+
       <div className="container max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div

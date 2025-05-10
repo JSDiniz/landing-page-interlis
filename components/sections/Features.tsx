@@ -5,10 +5,19 @@ import Image from "next/image";
 
 import Monitor from "@/public/features/monitor.png"
 import Report from "@/public/features/report.png"
+import Decoration from "@/public/decoration/decoration-3.svg"
 
 export default function Features() {
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+      <div className="absolute w-[1000px] h-auto -top-[80%] -left-[5%] opacity-5 -z-10">
+        <Image
+          src={Decoration}
+          alt="Painel de Controle Interlis"
+          className="w-full h-auto"
+        />
+      </div>
+
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -28,7 +37,7 @@ export default function Features() {
                 />
               </div>
 
-              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-[75%] rounded-lg shadow-lg">
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-[75%] rounded-lg shadow-lg">
                 <Image
                   src={Report}
                   alt="Painel de Controle Interlis"

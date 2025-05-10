@@ -6,6 +6,7 @@ import Image from "next/image";
 
 import notebook from "@/public/platform/notebook.png"
 import Request from "@/public/platform/request.png"
+import Decoration from "@/public/decoration/decoration-4.svg"
 
 export default function Platform() {
   const container = {
@@ -24,7 +25,15 @@ export default function Platform() {
   };
 
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+      {/* <div className="absolute w-[400px] h-auto top-1/2 left-[10%] -translate-y-1/2  opacity-5 -z-1">
+        <Image
+          src={Decoration}
+          alt="Painel de Controle Interlis"
+          className="w-full h-auto"
+        />
+      </div> */}
+
       <div className="container max-w-7xl mx-auto px-4">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

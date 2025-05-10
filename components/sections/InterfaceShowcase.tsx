@@ -39,7 +39,7 @@ export default function InterfaceShowcase() {
   };
 
   return (
-    <section className="pt-72 pb-20">
+    <section className="pt-72 pb-20 relative z-10">
       <div className="container max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ export default function InterfaceShowcase() {
 
           {features.map((feature, index) => (
             <motion.div key={index} variants={item}>
-              <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+              <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 h-full bg-white">
                 <CardContent className="p-6 flex flex-col items-center text-center">
                   <div className="w-14 h-14 bg-purple-100 text-primary rounded-lg flex items-center justify-center mb-4">
                     {feature.icon}
