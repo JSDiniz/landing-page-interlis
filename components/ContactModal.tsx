@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
+import { Textarea } from "./ui/textarea";
 
 interface ContactModalProps {
     isOpen: boolean;
@@ -19,8 +20,10 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
         email: "",
         phone: "",
         institution: "",
+        otherInstitution: "",
         role: "",
-        privacy: false,
+        otherRole: "",
+        message: "",
     });
 
     const handleSubmit = (e: React.FormEvent) => {
@@ -80,11 +83,20 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
                             </SelectTrigger>
 
                             <SelectContent className="bg-white">
-                                <SelectItem value="hospital">Hospital</SelectItem>
-                                <SelectItem value="clinic">Clínica</SelectItem>
-                                <SelectItem value="laboratory">Laboratório</SelectItem>
+                                <SelectItem value="hospital" className="cursor-pointer">Hospital</SelectItem>
+                                <SelectItem value="clinic" className="cursor-pointer">Clínica</SelectItem>
+                                <SelectItem value="laboratory" className="cursor-pointer">Laboratório</SelectItem>
+                                <SelectItem value="other" className="cursor-pointer">Outro</SelectItem>
                             </SelectContent>
                         </Select>
+
+                        {formData.institution === "other" && (
+                            <Input
+                                placeholder="Digite o tipo de instituição"
+                                value={formData.otherInstitution}
+                                onChange={(e) => setFormData({ ...formData, otherInstitution: e.target.value })}
+                            />
+                        )}
                     </div>
 
                     <div className="space-y-2">
@@ -98,15 +110,24 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
                             </SelectTrigger>
 
                             <SelectContent className="bg-white">
-                                <SelectItem value="director">Diretor</SelectItem>
-                                <SelectItem value="manager">Gerente</SelectItem>
-                                <SelectItem value="coordinator">Coordenador</SelectItem>
-                                <SelectItem value="other">Outro</SelectItem>
+                                <SelectItem value="director" className="cursor-pointer">Diretor</SelectItem>
+                                <SelectItem value="manager" className="cursor-pointer">Gerente</SelectItem>
+                                <SelectItem value="coordinator" className="cursor-pointer">Coordenador</SelectItem>
+                                <SelectItem value="clinicalAnalyst" className="cursor-pointer">Analista clínico</SelectItem>
+                                <SelectItem value="other" className="cursor-pointer">Outro</SelectItem>
                             </SelectContent>
                         </Select>
+
+                        {formData.role === "other" && (
+                            <Input
+                                placeholder="Digite o cargo"
+                                value={formData.otherRole}
+                                onChange={(e) => setFormData({ ...formData, otherRole: e.target.value })}
+                            />
+                        )}
                     </div>
 
-                    <div className="flex items-center space-x-2">
+                    {/* <div className="flex items-center space-x-2">
                         <Checkbox
                             id="privacy"
                             checked={formData.privacy}
@@ -120,7 +141,19 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
                         >
                             Eu li e concordo com a Política de Privacidade
                         </label>
+                    </div> */}
+
+                    <div className="space-y-2">
+                        <Label htmlFor="message">Message</Label>
+
+                        <Textarea
+                            id="message"
+                            rows={4}
+                            placeholder="Sua mensagem..."
+                            onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                        />
                     </div>
+
 
                     <Button
                         type="submit"
