@@ -38,7 +38,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="font-ubuntu text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-content-body">
-              Soluções <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5E2C82] to-[#944B9A]">Tecnológicas</span> Para O Seu Laboratório
+              Soluções <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5E2C82] to-[#944B9A]">tecnológicas</span> para o seu laboratório
             </h1>
           </motion.div>
 
