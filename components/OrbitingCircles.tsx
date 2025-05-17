@@ -5,7 +5,7 @@ import { useAnimationFrame } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
 
-import Logo from "@/public/logo-icone.jpg"
+import Logo from "@/public/logo-icone.png"
 
 interface OrbitingCirclesProps {
     images: string[];
@@ -45,7 +45,7 @@ export default function OrbitingCircles({
 
     return (
         <div
-            className="relative rounded-full border-dashed border border-purple-500"
+            className="relative rounded-full border-dashed border border-purple-500 bg-transparent"
             style={{ width, height }}
         >
             <div
@@ -66,7 +66,7 @@ export default function OrbitingCircles({
                             transform: "translate(-50%, -50%)",
                         }}
                     >
-                        <div className="w-full h-full flex items-center justify-center p-2 bg-white border border-gray-100 rounded-full drop-shadow-xl">
+                        <div className="w-full h-full flex items-center justify-center p-2 bg-white border border-gray-100 rounded-full shadow-lg">
                             <Image
                                 src={logo}
                                 alt={`logo-${index}`}
