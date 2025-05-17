@@ -76,10 +76,6 @@ export default function Platform() {
 
             <div className="space-y-4 text-justify">
               <p>
-                O Interlis é a escolha certa. Um sistema de gestão focado no aumento de produtividade, com uma interface clara e intuitiva.
-              </p>
-
-              <p>
                 Um layout multi-gráfico, análise técnica, cotações históricas e mais. Tudo o que procura numa plataforma - num dispositivo à sua escolha.
               </p>
             </div>
