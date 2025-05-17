@@ -96,15 +96,15 @@ export default function Header() {
       <Dialog open={isModalOpen} onOpenChange={() => setIsModalOpen(false)}>
         <DialogContent className="sm:max-w-[500px] p-6 bg-white">
           <h2 className="text-xl text-center text-content-body font-ubuntu font-semibold mb-4">
-            Seu subdomínio do Zendesk
+            Seu subdomínio da interlis
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="name">seusubdomínio.interlis.com.br/auth/login</Label>
+              <Label htmlFor="name">seusubdomínio.interlis.com.br</Label>
               <Input
                 id="name"
-                placeholder="Seusubdomínio"
+                placeholder="Seu subdomínio"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               />

@@ -14,7 +14,7 @@ export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="min-h-[866px] pt-32 pb-20 relative rounded-b-[30px] bg-tertiary">
+    <section className="min-h-[866px] pt-40 pb-20 relative rounded-b-[30px] bg-tertiary">
       {/* Grid pattern for decoration */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -37,8 +37,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="font-ubuntu text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center max-w-4xl text-content-body">
-              Soluções <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5E2C82] to-[#944B9A]">Tecnológicas</span> Para O Seu Laboratório
+            <h1 className="font-ubuntu text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-content-body">
+              Soluções <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5E2C82] to-[#944B9A]">tecnológicas</span> para o seu laboratório
             </h1>
           </motion.div>
 
