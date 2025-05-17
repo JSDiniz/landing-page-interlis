@@ -7,18 +7,18 @@ import { Clock, BarChart, Activity } from "lucide-react";
 const features = [
   {
     icon: <Activity size={24} />,
-    title: "Interfaceamento Inteligente",
-    description: "Integração perfeita com seus equipamentos e sistemas existentes.",
+    title: "Gerenciamento Inteligente",
+    description: "Integração perfeita entre todos os departamentos e sistemas existentes.",
   },
   {
     icon: <Clock size={24} />,
-    title: "Fluxos Otimizados",
-    description: "Processos automáticos para reduzir manualmente os dias e dias.",
+    title: "Fluidez Operacional",
+    description: "Plataforma otimizada para máxima eficiência em dia a dia.",
   },
   {
     icon: <BarChart size={24} />,
     title: "Gestão Completa",
-    description: "Controle total sobre todas as operações do seu laboratório.",
+    description: "Controle total sobre as operações do seu laboratório.",
   },
 ];
 
