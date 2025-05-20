@@ -13,7 +13,7 @@ const features = [
   {
     icon: <Clock size={24} />,
     title: "Fluidez Operacional",
-    description: "Plataforma otimizada para máxima eficiência em dia a dia.",
+    description: "Plataforma otimizada para máxima eficiência no dia a dia.",
   },
   {
     icon: <BarChart size={24} />,
