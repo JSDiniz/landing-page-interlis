@@ -59,7 +59,7 @@ export default function Features() {
 
             <div className="space-y-4 text-justify">
               <p>
-                O Interlis simplifica processos para que você tenha mais tempo para sua expertise: a interpretação analítica.
+                O Interlis simplifica processos para que você tenha mais tempo para sua expertise: a análise clínica.
               </p>
 
               <p>
