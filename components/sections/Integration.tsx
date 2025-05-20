@@ -54,7 +54,7 @@ export default function Integration() {
             </h2>
 
             <p className="mb-6 text-justify">
-              Conecte tudo e otimize seu fluxo de trabalho com o Interlis. Graças à sua ampla compatibilidade e adaptabilidade, ele integra facilmente equipamentos de diversas marcas, como <span className="font-semibold">QuidelOrtho</span>, <span className="font-semibold">Roche</span>, <span className="font-semibold">Mindray</span>, <span className="font-semibold">Radiometer</span>, <span className="font-semibold">Human</span> e outras, garantindo um fluxo de dados contínuo. Isso traz segurança, flexibilidade para novas tecnologias e simplifica sua gestão, permitindo focar nos resultados e maximizar seus investimentos.
+              Conecte <span className="font-semibold">tudo</span> e otimize seu fluxo de trabalho com o Interlis. Graças à sua ampla compatibilidade e adaptabilidade, ele integra facilmente equipamentos de diversas marcas, como <span className="font-semibold">QuidelOrtho</span>, <span className="font-semibold">Roche</span>, <span className="font-semibold">Mindray</span>, <span className="font-semibold">Radiometer</span>, <span className="font-semibold">Human</span> e outras, garantindo um fluxo de dados contínuo. Isso traz segurança, flexibilidade para novas tecnologias e simplifica sua gestão, permitindo focar nos resultados e maximizar seus investimentos.
             </p>
 
           </motion.div>
