@@ -70,7 +70,7 @@ export default function Platform() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Uma plataforma completa em qualquer dispositivo
             </h2>
 

@@ -48,7 +48,7 @@ export default function InterfaceShowcase() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl text-content-body font-ubuntu font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-4">
             Conheça a interface do Interlis
           </h2>
 

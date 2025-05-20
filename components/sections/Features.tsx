@@ -53,7 +53,7 @@ export default function Features() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <h2 className="text-3xl md:text-4xl  text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Tecnologia que organiza, <br /> analista que analisa:
             </h2>
 
