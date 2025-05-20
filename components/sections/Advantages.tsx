@@ -12,7 +12,7 @@ export default function Advantages() {
     {
       icon: <ClipboardCheck className="h-6 w-6" />,
       title: "Gestão de Pacientes e Exames",
-      description: "Organize o cadastro de pacientes e o gerenciamento dos exames e resultados."
+      description: "Organize o cadastro de pacientes, gerenciamento dos exames e resultados."
     },
     {
       icon: <Lock className="h-6 w-6" />,
@@ -22,17 +22,17 @@ export default function Advantages() {
     {
       icon: <Clock className="h-6 w-6" />,
       title: "Fluxo Otimizado",
-      description: "Organização otimizada de fluxos de exames e agilidade na entrega dos resultados."
+      description: "Organização estratégica de fluxos de exames e agilidade na entrega dos resultados."
     },
     {
       icon: <Globe className="h-6 w-6" />,
       title: "Acesso Online",
-      description: "Resultados disponíveis online para pacientes através da plataforma segura."
+      description: "Resultados online disponíveis com segurança para seus pacientes, por meio de nossa plataforma."
     },
     {
       icon: <Layers className="h-6 w-6" />,
       title: "Gestão de Materiais",
-      description: "Controle adequado dos kits e reagentes para comunicação dos custos."
+      description: "Controle de estoque de insumos para facilitar o reporte dos custos."
     },
     {
       icon: <Users className="h-6 w-6" />,
@@ -75,12 +75,12 @@ export default function Advantages() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl text-content-body font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl text-content-body font-bold mb-4">
             Vantagens do Interlis
           </h2>
 
           <p className="text-lg">
-            Descubra como nossa plataforma pode transformar os processos do seu laboratório
+            Descubra como podemos transformar os processos do seu laboratório
           </p>
         </motion.div>
 

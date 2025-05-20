@@ -70,13 +70,13 @@ export default function Platform() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Uma plataforma completa em qualquer dispositivo
             </h2>
 
             <div className="space-y-4 text-justify">
               <p>
-                Um layout multi-gráfico, análise técnica, cotações históricas e mais. Tudo o que procura numa plataforma - num dispositivo à sua escolha.
+                Layout multigráfico, análise técnica, cotações históricas e mais. Tudo o que você procura em uma plataforma: disponível no dispositivo de sua escolha.
               </p>
             </div>
 

@@ -53,13 +53,13 @@ export default function Features() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <h2 className="text-3xl md:text-4xl  text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Tecnologia que organiza, <br /> analista que analisa:
             </h2>
 
             <div className="space-y-4 text-justify">
               <p>
-                O Interlis simplifica processos para que você tenha mais tempo para sua expertise: a interpretação analítica.
+                O Interlis simplifica processos para que você tenha mais tempo para sua expertise: a análise clínica.
               </p>
 
               <p>

@@ -30,7 +30,7 @@ export default function Fluidity() {
             transition={{ duration: 0.7 }}
             className="order-2 lg:order-1"
           >
-            <h2 className="text-3xl text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Busca mais fluidez para as operações do seu laboratório?
             </h2>
 

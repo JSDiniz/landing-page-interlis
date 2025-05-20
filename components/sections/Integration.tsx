@@ -49,12 +49,12 @@ export default function Integration() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl text-content-body font-ubuntu font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl text-content-body font-ubuntu font-bold mb-6">
               Interfaceamento contínuo:
             </h2>
 
             <p className="mb-6 text-justify">
-              Conecte tudo e otimize seu fluxo de trabalho com o Interlis. Graças à sua ampla compatibilidade e adaptabilidade, ele integra facilmente equipamentos de diversas marcas, como <span className="font-semibold">QuidelOrtho</span>, <span className="font-semibold">Roche</span>, <span className="font-semibold">Mindray</span>, <span className="font-semibold">Radiometer</span>, <span className="font-semibold">Human</span> e outras, garantindo um fluxo de dados contínuo. Isso traz segurança, flexibilidade para novas tecnologias e simplifica sua gestão, permitindo focar nos resultados e maximizar seus investimentos.
+              Conecte <span className="font-semibold">tudo</span> e otimize seu fluxo de trabalho com o Interlis. Graças à sua ampla compatibilidade e adaptabilidade, ele integra facilmente equipamentos de diversas marcas, como <span className="font-semibold">QuidelOrtho</span>, <span className="font-semibold">Roche</span>, <span className="font-semibold">Mindray</span>, <span className="font-semibold">Radiometer</span>, <span className="font-semibold">Human</span> e outras, garantindo um fluxo de dados contínuo. Isso traz segurança, flexibilidade para novas tecnologias e simplifica sua gestão, permitindo focar nos resultados e maximizar seus investimentos.
             </p>
 
           </motion.div>
