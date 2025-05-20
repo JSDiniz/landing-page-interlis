@@ -76,7 +76,7 @@ export default function Platform() {
 
             <div className="space-y-4 text-justify">
               <p>
-                Um layout multi-gráfico, análise técnica, cotações históricas e mais. Tudo o que procura numa plataforma - num dispositivo à sua escolha.
+                Layout multigráfico, análise técnica, cotações históricas e mais. Tudo o que você procura em uma plataforma: disponível no dispositivo de sua escolha.
               </p>
             </div>
 
