@@ -11,7 +11,7 @@ import { ChevronRight } from "lucide-react";
 import { ContactModal } from "../ContactModal";
 
 import Dashboard from "@/public/dashboard.png"
-import DecorationLeft from "@/public/decoration/decoration-left.svg"
+import DecorationLeft from "@/public/decoration/decoration-6.svg"
 import DecorationRight from "@/public/decoration/decoration-5.svg"
 
 export default function Hero() {

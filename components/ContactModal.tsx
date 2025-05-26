@@ -35,7 +35,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
     return (
         <Dialog open={isOpen} onOpenChange={onClose}>
-            <DialogContent className="sm:max-w-[500px] p-6 bg-white">
+            <DialogContent className="w-full max-w-[90vw] sm:max-w-[500px] p-6 bg-white overflow-y-auto max-h-[90vh] rounded-lg">
                 <h2 className="text-xl text-center text-content-body font-ubuntu font-semibold mb-4">
                     Preencha com seus dados para melhorar os resultados da sua clínica ou hospital:
                 </h2>
