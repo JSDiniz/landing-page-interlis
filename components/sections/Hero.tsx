@@ -1,14 +1,18 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
+
 import Image from "next/image";
+
+import { motion } from "framer-motion";
+
 import { ChevronRight } from "lucide-react";
 
-import Dashboard from "@/public/dashboard.png"
-import DecorationLeft from "@/public/decoration-left.svg"
-import DecorationRight from "@/public/decoration-right.svg"
-import { useState } from "react";
 import { ContactModal } from "../ContactModal";
+
+import Dashboard from "@/public/dashboard.png"
+import DecorationLeft from "@/public/decoration/decoration-6.svg"
+import DecorationRight from "@/public/decoration/decoration-5.svg"
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,12 +27,15 @@ export default function Hero() {
           className="absolute left-[3%] top-[15%] w-auto h-auto max-w-none"
         />
 
+
         <Image
           src={DecorationRight}
           alt="Decoração esquerda"
           className="absolute right-[3%] top-[25%] w-auto h-auto max-w-none"
         />
       </div>
+
+
 
       <div className="container max-w-7xl mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center justify-center">
